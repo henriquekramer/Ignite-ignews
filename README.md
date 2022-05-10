@@ -15,7 +15,7 @@
 
 ## 💻 Projeto
 
-<p>O Ignews é um blog sobre tecnologia no qual o usuário deverá fazer uma assinatura mensal para ter acesso completo aos conteúdos. Porém, 
+<p>O Ignews é um blog sobre tecnologia no qual o usuário deverá fazer uma assinatura mensal para ter acesso completo aos conteúdos (modelo paywall). Porém, 
 para usuários que não queiram fazer a assinatura, terão acesso limitado a cada post do Blog. Para logar no aplicativo, o usuário deverá fazer sua autenticação
 via conta do GitHub.</p>
 
