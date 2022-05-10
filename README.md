@@ -34,7 +34,10 @@ Você pode acessar o layout do projeto através do link abaixo
     <img src = "https://user-images.githubusercontent.com/97106134/167515080-326d4164-ad56-4336-a427-25782ba0e758.PNG" width="80%" />
 </p>
 
-
+<h2>Aplicativo em Uso</h2>
+<p align="center">
+  <img src =https://user-images.githubusercontent.com/97106134/167519049-6e919a78-8d4e-4550-88de-70c97d7c9168.gif width="80%" />
+</p>
 
 ## 🚀 Tecnologias
 
