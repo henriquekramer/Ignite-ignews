@@ -20,7 +20,7 @@ para usuários que não queiram fazer a assinatura, terão acesso limitado a cad
 via conta do GitHub.</p>
 
 <p>O projeto Ignews é um aplicativo JAMStack que utiliza dos serviços FaunaDB(banco de dados), Stripe(API de pagamentos), GitHub(Autenticação +OAuth),
-Prismic CMS(sistema de gestão de conteúdo) e do framework do React Next.js, além disso usa da estilização do Sass.</p>
+Prismic CMS(sistema de gestão de conteúdo) e do framework do React Next.js, além disso usa a estilização feita pelo Sass.</p>
 
 ## 🔖 Layout
 
