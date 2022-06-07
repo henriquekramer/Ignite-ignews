@@ -9,7 +9,9 @@
   <a href="#-projeto">Projeto</a> |
   <a href="#-layout">Layout</a> |
   <a href="#-tecnologias">Tecnologias</a> |
-  <a href="#-instalação-e-uso">Instalação e Uso</a> 
+  <a href="#-instalação-e-uso">Instalação e Uso</a> |
+  <a href="#-testes">Testes</a>
+  
 </p>
 
 
@@ -20,7 +22,10 @@ para usuários que não queiram fazer a assinatura, terão acesso limitado a cad
 via conta do GitHub.</p>
 
 <p>O projeto Ignews é um aplicativo JAMStack que utiliza dos serviços FaunaDB(banco de dados), Stripe(API de pagamentos), GitHub(Autenticação +OAuth),
-Prismic CMS(sistema de gestão de conteúdo) e do framework do React Next.js, além disso usa a estilização feita pelo Sass.</p>
+Prismic CMS(sistema de gestão de conteúdo) e do framework do React Next.js, além disso usa a estilização feita pelo Sass e possui testes unitários de 
+todos os componentes da aplicação, feito com o Jest.</p>
+
+Acesse em: https://ignews-orcin-six.vercel.app/
 
 ## 🔖 Layout
 
@@ -48,6 +53,7 @@ As seguintes tecnologias foram utilizadas no projeto:
 - [Stripe](https://stripe.com/)
 - [FaunaDB](https://fauna.com/)
 - [Sass](https://sass-lang.com/)
+- [Jest](https://jestjs.io/)
 
 ## 💻 Instalação e Uso
 
@@ -71,6 +77,15 @@ $ yarn install
 $ yarn dev
 ```
 **O servidor será inicializado em <http://localhost:3000>**
+
+## 💻 Testes
+
+**Para rodar os testes unitários da aplicação:**
+```bash
+# Execute o seguinte comando no terminal
+$ yarn test
+```
+
 
 <p align="center">
   Made with 💜&nbsp; by <a href="https://www.linkedin.com/in/henriquekramer/">Henrique Kramer</a>
