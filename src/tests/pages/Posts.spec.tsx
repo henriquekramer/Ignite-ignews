@@ -3,7 +3,7 @@ import Posts, { getStaticProps } from '../../pages/posts'
 import { getPrismicClient } from '../../services/prismic';
 
 const posts = [
-  {slug: 'my-new-post', title: 'My New Post', excerpt: 'Post excerpt', updatedAt: '10 de Abril'}
+  {slug: 'my-new-post', title: 'My New Post', excerpt: 'Post excerpt', updatedAt: '01 de Abril'}
 ]
 
 jest.mock('../../services/prismic')
