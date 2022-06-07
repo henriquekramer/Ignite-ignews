@@ -9,6 +9,15 @@ module.exports = {
   testEnvironment: 'jsdom', //em que ambiente nossos testes estão executando
   moduleNameMapper: {
     "\\.(scss|css|sass)$": "identity-obj-proxy"
-  }
+  },
+  collectCoverage: true,
+  collectCoverageFrom: [
+    "src/**/*.tsx", // poderia ser {js,jsx}
+    "!src/**/*.spec.tsx", //excluindo os .spec.tsx, _app, _document
+    "!src/**/_app.tsx", 
+    "!src/**/_document.tsx", 
+
+  ],
+  coverageReporters: ["lcov", "json"]
 };
 
